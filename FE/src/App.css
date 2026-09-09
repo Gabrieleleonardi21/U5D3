@@ -1,0 +1,38 @@
+/* Stile minimo: serve solo a rendere leggibile la pagina di prova. */
+main {
+  max-width: 46rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  line-height: 1.5;
+}
+
+section {
+  margin-bottom: 1.5rem;
+}
+
+button,
+select {
+  margin-left: 0.5rem;
+}
+
+.errore {
+  color: #b00020;
+}
+
+/* pre-wrap: manda a capo le righe lunghe invece di far scorrere la pagina. */
+pre {
+  white-space: pre-wrap;
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+/* La webcam su fondo scuro: l'anteprima si vede meglio mentre si inquadra. */
+.fotocamera video {
+  display: block;
+  width: 100%;
+  max-width: 30rem;
+  background: #000;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
