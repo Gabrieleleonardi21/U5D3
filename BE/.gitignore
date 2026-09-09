@@ -2,3 +2,5 @@ target/
 env.local
 .idea/
 *.iml
+**/.DS_Store
+uploads/

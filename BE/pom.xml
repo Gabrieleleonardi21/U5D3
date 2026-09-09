@@ -43,6 +43,17 @@
 			<artifactId>spring-boot-starter-webmvc</artifactId>
 		</dependency>
 
+		<!--
+			Tess4J: il "ponte" Java verso Tesseract, il motore OCR. Non contiene il
+			motore: chiama via JNA la libreria nativa installata sul sistema
+			(su questo Mac: brew install tesseract tesseract-lang).
+		-->
+		<dependency>
+			<groupId>net.sourceforge.tess4j</groupId>
+			<artifactId>tess4j</artifactId>
+			<version>5.16.0</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
